@@ -3,8 +3,7 @@ import './styles.css';
 import logo from './images/logo.svg';
 import errorIcon from './images/icon-error.svg';
 import arrow from './images/icon-arrow.svg';
-import desktophero from './images/hero-desktop.jpg';
-import mobilehero from './images/hero-mobile.jpg';
+
 
 const BaseApparelComingSoon: React.FC = () => {
   const [errorVisible, setErrorVisible] = useState<boolean>(false);
